@@ -18,7 +18,7 @@ class Employee:
         return '{} {}'.format(self.first, self.last)
     
     def apply_raise(self):
-        self.pay = int(self.pay * Employee.raise_amount)
+        self.pay = int(self.pay * Employee.raise_amt)
     
     @classmethod
     def from_string(cls,emp_str):
